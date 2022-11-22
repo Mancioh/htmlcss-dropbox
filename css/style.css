@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.margin{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*inizio header*/
+header{
+    width: 100%;
+    height: 70px;
+    background-color:white;
+    position: relative;
+    line-height: 70px;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    z-index: 500;
+    border-bottom: 1px solid black;
+}
+
+.container-img{
+    width: 15%;
+    height: 100%;
+}
+
+.container-nav2{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding-left: 250px;
+}
+
+.nav1{
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+
+#logo{
+    width: 150px;
+    margin: 20px;
+    vertical-align: middle;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 20px;
+    height: 70px;
+}
+
+li:hover{
+    border-bottom: 4px solid black;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#inizia{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: blue;
+    padding: 5px 10px;
+}
+
+/*fine header*/
+
+/*inizio jambotrom*/
+#jambotrom{
+    height: 800px;
+    background-color:lightblue;
+    margin-bottom: 200px;
+    margin-top: 70px;
+    position: relative;
+}
+
+h1{
+    font-size: 60px;
+    padding: 50px;
+}
+
+#paragrafo-button{
+    font-size: 20px;
+    padding-right: 70%;
+    margin: 20px 40px;
+}
+
+#paragrafo-button a{
+    display: block;
+    text-decoration: none;
+    margin: 20px 0;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+#paragrafo-button h5{
+    font-size: 15px;
+}
+
+#paragrafo-button .trasparenza:hover{
+    background-color: rgba(254,254,254,0.5);
+}
+
+#freccia{
+    font-size: 50px;
+    margin: 20px;
+}
+
+#sfondo{
+    position: absolute;
+    right: 20px;
+    top: 350px;
+    
+}
+
+/*fine jambotrom*/
+
+/*inizio titolo e radio button*/
+
+.titolo h2{
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+#radio-button{
+    font-size: 20px;
+    margin: 40px 0;
+}
+
+/*fine titolo e radio button*/
+
+/*inizio piani abbonamento*/
+
+.container{
+    width: 100%;
+    height: 500px;
+    margin: 100px 0;
+}
+
+.box{
+    width: calc(100% / 3 - 40px);
+}
+
+.titolo-box{
+    width: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.paragrafo{
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px;
+    line-height: 50px;
+}
+
+.paragrafo h3{
+    font-size: 25px;
+}
+
+.paragrafo h5{
+    color: lightgray;
+}
+
+.descrizione{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.descrizione span{
+    display: inline-block;
+    line-height: 16px;
+}
+
+.descrizione span i{
+    margin-right: 8px;
+}
+
+.paragrafo .button a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.paragrafo .button{
+    margin-top: 40px;
+}
+
+.punti-salienti{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.punti-salienti span{
+    display: inline-block;
+    line-height: 18px;
+}
+
+.punti-salienti ul li{
+    line-height: 18px;
+}
+
+.punti-salienti span i{
+    color: green;
+    margin-right: 10px;
+}
+
+/*fine piani abbonamento*/
+
+
+/*inizio contatti uffici vendite*/
+
+#titolo-team{
+    width: 100%;
+    margin-top: 550px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid black;
+}
+
+#Team #contatti-vendite{
+    border: 1px solid black;
+    padding: 20px;
+    position: relative;
+}
+
+#Team #contatti-vendite h3{
+    font-size: 25px;
+
+}
+
+#Team #contatti-vendite h4{
+    margin: 20px 0;
+}
+
+#vendite-button{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+#vendite-button a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/*fine contatti uffici vendite*/
+
+/*inizio sezione trova partner*/
+
+.img-partner, .box{
+    margin: 20px;
+    float: left;
+}
+
+.partner .img-partner{
+    width: calc(100% / 2 - 40px);
+}
+
+.partner .Trova-partner{
+    padding: 80px 40px;
+}
+
+.partner .Trova-partner h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.partner .Trova-partner p{
+    line-height: 25px;
+}
+
+.partner .Trova-partner a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin: 50px 0;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+/*fine sezione trova partner*/
+
+/*inizio sezione operazioni con Dropbox*/
+
+.operazioni-con-Dropbox .titolo-box{
+    text-align: left;
+    font-size: 30px;
+    border: none;
+}
+
+.box2 .box .img-operazioni img{
+    width: 100%;
+}
+
+.box2 .box h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.box2 .box p{
+    font-size: 20px;
+}
+
+/*fine sezione operazioni con Dropbox*/
+
+/*inizio sezione partner che utilizzano Dropbox*/
+
+.partner-Dropbox .titolo-box{
+    font-size: 30px;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+}
+
+.partner-Dropbox .titolo-box a{
+    display: inline-block;
+    font-size: 18px;
+    margin: 40px 0;
+}
+
+.container-box-partner2{
+    width: calc(100% / 3);
+    height: 500px;
+    float: left;
+}
+
+.row{
+    width: 100%;
+    height: calc(100% / 2);
+}
+
+
+.row .img-row{
+    width: calc(100% / 2);
+    height: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+ .row .img-row img{
+   width: 50%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% , -50%);
+}
+
+.left .row .img_1{
+    background-color: green;
+    border: 15px solid lightgrey;
+}
+
+.left .row .img_2{
+    background-color: darkred;
+}
+
+.left .row .img_3{
+    background-color: lightskyblue;
+}
+
+.left .row .img_4{
+    background-color: red;
+}
+
+.right .row .img_5{
+    background-color: red;
+}
+
+.right .row .img_6{
+    background-color: lightblue;
+}
+
+.right .row .img_7{
+    background-color: blue;
+}
+
+.right .row .img_8{
+    background-color: yellow;
+}
+
+.centre{
+    background-color: lightgray;
+}
+
+.centre .img_centre{
+    width: 150px;
+    height: 100px;
+    margin: 40px 20px;
+}
+
+.centre .img_centre img{
+    width: 100%;
+}
+
+.paragrafo_centre{
+    width: 80%;
+    margin: auto;
+}
+
+.prova-gratuita{
+    width: 100%;
+    height: 300px;
+    background-color: lightblue;
+    display: inline-block;
+}
+
+.prova-gratuita .box-prova{
+    width: 50%;
+    height: 100%;
+    float: left;
+    line-height: 300px;
+}
+
+
+.prova-gratuita .titolo h2{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 30px;
+    color: darkred;
+}
+
+.prova-gratuita .button a{
+    display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.prova-gratuita .button span{
+    background-color: white;
+    padding: 20px;
+}
+
+/*fine sezione partner che utilizzano Dropbox*/
+
+/*inizio sezione domande frequenti*/
+
+#domande{
+    margin: 250px 0;
+    line-height: 60px;
+}
+
+#domande .titolo-box{
+    margin-top: 500px;
+    border: none;
+    text-align: left;
+}
+
+#domande .titolo-box h2{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#domande .elenco .row-elenco h3{
+    text-align: center;
+}
+
+#domande .elenco .row-elenco p{
+    line-height: 20px;
+    text-align: center;
+    display: none;
+}
+
+#domande .elenco .row-elenco:hover p {
+    display: block;
+}
+
+/*fine sezione domande frequenti*/
+
+/*inizio footer*/
+
+footer{
+    height: 600px;
+    background-color: black;
+    color: white;
+    padding: 80px;
+}
+
+footer .box-pie{
+    width: calc(100% / 5 - 40px);
+    margin-right: 20px;
+    float: left;
+}
+
+footer .box-pie h3{
+    margin-bottom: 30px;
+}
+
+footer .box-pie ul li{
+    display: block;
+    border: none;
+   height: 25px;
+}
+
+footer .box-pie ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+footer .box-pie ul li a:hover{
+    border-bottom: 1px solid white;
+}
+
+/*fine footer*/
+
+
